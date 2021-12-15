@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "id": "11a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "tabNumber": "11111",
+      "lastName": "Сергеев",
+      "firstName": "Сергей",
+      "middleName": "Сергеевич",
+      "officeCode": "1232",
+      "roleName": "string",
+      "stuffName": "string"
+    },
+    {
+      "id": "21a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "tabNumber": "22222",
+      "lastName": "Петров",
+      "firstName": "Петр",
+      "middleName": "Петрович",
+      "officeCode": "2321",
+      "roleName": "string",
+      "stuffName": "string"
+    },
+    {
+      "id": "31a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "tabNumber": "33333",
+      "lastName": "Денисов",
+      "firstName": "Денис",
+      "middleName": "Денисович",
+      "officeCode": "2343",
+      "roleName": "string",
+      "stuffName": "string"
+    },
+    {
+      "id": "41a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "tabNumber": "44444",
+      "lastName": "Федоров",
+      "firstName": "Федор",
+      "middleName": "Федорович",
+      "officeCode": "8823",
+      "roleName": "string",
+      "stuffName": "string"
+    }
+  ],
+  "removed": [
+  ],
+  "lastRevNum": 0
+}
