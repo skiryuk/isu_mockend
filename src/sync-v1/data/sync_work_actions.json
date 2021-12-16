@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "id": "16a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Мероприятие 1"
+    },
+    {
+      "id": "26a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Мероприятие 2"
+    },
+    {
+      "id": "36a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Мероприятие 3"
+    },
+    {
+      "id": "46a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Мероприятие 4"
+    },
+    {
+      "id": "56a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Мероприятие 5"
+    },
+    {
+      "id": "66a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Мероприятие 6"
+    },
+    {
+      "id": "76a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Мероприятие 7"
+    },
+    {
+      "id": "86a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Мероприятие 8"
+    },
+    {
+      "id": "96a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Мероприятие 9"
+    }
+  ],
+  "removed": [
+  ],
+  "lastRevNum": 0
+}

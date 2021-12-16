@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "id": "14a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Отклонение 1.1",
+      "groupId": "13a85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    {
+      "id": "24a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Отклонение 1.2",
+      "groupId": "13a85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    {
+      "id": "34a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Отклонение 1.3",
+      "groupId": "13a85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    {
+      "id": "44a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Отклонение 2.1",
+      "groupId": "23a85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    {
+      "id": "54a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Отклонение 2.2",
+      "groupId": "23a85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    {
+      "id": "64a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Отклонение 3.1",
+      "groupId": "33a85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    {
+      "id": "74a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Отклонение 3.2",
+      "groupId": "33a85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    {
+      "id": "84a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Отклонение 3.3",
+      "groupId": "33a85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    {
+      "id": "94a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Отклонение 4.1",
+      "groupId": "43a85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    {
+      "id": "04a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Отклонение 4.2",
+      "groupId": "43a85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    {
+      "id": "15a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Отклонение 5.1",
+      "groupId": "53a85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    {
+      "id": "25a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "string",
+      "name": "Отклонение 5.2",
+      "groupId": "53a85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ],
+  "removed": [
+  ],
+  "lastRevNum": 0
+}

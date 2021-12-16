@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": "13a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "abc",
+      "name": "Группа отклонений 1",
+      "orderNumber": 2
+    },
+    {
+      "id": "23a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "abc",
+      "name": "Группа отклонений 2",
+      "orderNumber": 1
+    },
+    {
+      "id": "33a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "abc",
+      "name": "Группа отклонений 3",
+      "orderNumber": 3
+    },
+    {
+      "id": "43a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "abc",
+      "name": "Группа отклонений 4",
+      "orderNumber": 4
+    },
+    {
+      "id": "53a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "code": "abc",
+      "name": "Группа отклонений 5",
+      "orderNumber": 5
+    }
+  ],
+  "removed": [
+  ],
+  "lastRevNum": 0
+}
