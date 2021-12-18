@@ -9,14 +9,6 @@
       "power": 2
     },
     {
-      "id": "22a85f64-5717-4562-b3fc-2c963f66afa6",
-      "syncState": "created",
-      "revNum": 0,
-      "coworkerId": "11a85f64-5717-4562-b3fc-2c963f66afa6",
-      "created": "2021-12-16T02:27:58.963Z",
-      "power": 3
-    },
-    {
       "id": "32a85f64-5717-4562-b3fc-2c963f66afa6",
       "syncState": "created",
       "revNum": 0,
@@ -25,28 +17,20 @@
       "power": 5
     },
     {
-      "id": "42a85f64-5717-4562-b3fc-2c963f66afa6",
-      "syncState": "created",
-      "revNum": 0,
-      "coworkerId": "21a85f64-5717-4562-b3fc-2c963f66afa6",
-      "created": "2021-12-16T02:27:58.963Z",
-      "power": 3
-    },
-    {
-      "id": "52a85f64-5717-4562-b3fc-2c963f66afa6",
-      "syncState": "created",
-      "revNum": 0,
-      "coworkerId": "31a85f64-5717-4562-b3fc-2c963f66afa6",
-      "created": "2021-12-13T02:27:58.963Z",
-      "power": 4
-    },
-    {
       "id": "62a85f64-5717-4562-b3fc-2c963f66afa6",
       "syncState": "created",
       "revNum": 0,
       "coworkerId": "31a85f64-5717-4562-b3fc-2c963f66afa6",
       "created": "2021-12-16T02:27:58.963Z",
       "power": 7
+    },
+    {
+      "id": "72a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "coworkerId": "41a85f64-5717-4562-b3fc-2c963f66afa6",
+      "created": "2021-12-16T02:27:58.963Z",
+      "power": 9
     }
   ],
   "removed": [

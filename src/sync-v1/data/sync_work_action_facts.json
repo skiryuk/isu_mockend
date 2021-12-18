@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "18a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "workActionId": "16a85f64-5717-4562-b3fc-2c963f66afa6",
+      "coworkerId": "11a85f64-5717-4562-b3fc-2c963f66afa6",
+      "description": "string",
+      "status": "none",
+      "decideDt": "2021-12-14T12:54:35.097Z",
+      "notes": "string",
+      "violationFacts": [
+        "17a85f64-5717-4562-b3fc-2c963f66afa6",
+        "37a85f64-5717-4562-b3fc-2c963f66afa6"
+      ]
+    },
+    {
+      "id": "28a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "workActionId": "26a85f64-5717-4562-b3fc-2c963f66afa6",
+      "coworkerId": "21a85f64-5717-4562-b3fc-2c963f66afa6",
+      "description": "string",
+      "status": "none",
+      "decideDt": "2021-12-14T12:54:35.097Z",
+      "notes": "string",
+      "violationFacts": [
+        "47a85f64-5717-4562-b3fc-2c963f66afa6",
+        "57a85f64-5717-4562-b3fc-2c963f66afa6"
+      ]
+    },
+    {
+      "id": "38a85f64-5717-4562-b3fc-2c963f66afa6",
+      "syncState": "created",
+      "revNum": 0,
+      "workActionId": "236a85f64-5717-4562-b3fc-2c963f66afa6",
+      "coworkerId": "31a85f64-5717-4562-b3fc-2c963f66afa6",
+      "description": "string",
+      "status": "none",
+      "decideDt": "2021-12-14T12:54:35.097Z",
+      "notes": "string",
+      "violationFacts": [
+        "67a85f64-5717-4562-b3fc-2c963f66afa6",
+        "77a85f64-5717-4562-b3fc-2c963f66afa6"
+      ]
+    }
+  ],
+  "removed": [
+  ],
+  "lastRevNum": 0
+}

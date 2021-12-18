@@ -2,6 +2,7 @@ import { Controller, HttpStatus, Post, Query, Res } from '@nestjs/common';
 import { Response } from 'express';
 
 import * as REGISTER_AGENT_MOCK from './data/register-agent.json';
+import * as CHECK_AGENT_MOCK from './data/check-agent.json';
 
 @Controller('v1/agents')
 export class AgentsV1Controller {
@@ -22,6 +23,6 @@ export class AgentsV1Controller {
     @Query('AppVersion') appVersion: string,
     @Res() res: Response,
   ) {
-    return res.status(HttpStatus.OK).json(REGISTER_AGENT_MOCK);
+    return res.status(HttpStatus.OK).json(CHECK_AGENT_MOCK);
   }
 }

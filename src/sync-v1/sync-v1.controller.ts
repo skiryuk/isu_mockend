@@ -7,6 +7,7 @@ import * as SYNC_VIOLATION_GROUPS from './data/sync_violation_groups.json';
 import * as SYNC_VIOLATIONS from './data/sync_violations.json';
 import * as SYNC_WORK_ACTIONS from './data/sync_work_actions.json';
 import * as SYNC_VIOLATION_FACTS from './data/sync_violation_facts.json';
+import * as SYNC_WORK_ACTION_FACTS from './data/sync_work_action_facts.json';
 
 @Controller('v1/syncs')
 export class SyncV1Controller {
@@ -63,6 +64,6 @@ export class SyncV1Controller {
     @Param('revNum') revNum: number,
     @Res() res: Response,
   ) {
-    return res.status(HttpStatus.OK).json(SYNC_VIOLATION_FACTS);
+    return res.status(HttpStatus.OK).json(SYNC_WORK_ACTION_FACTS);
   }
 }
