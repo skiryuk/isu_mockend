@@ -1,6 +1,7 @@
 import { Controller, Get, HttpStatus, Param, Res } from '@nestjs/common';
 import { Response } from 'express';
 
+import * as SYNC_EMPTY_RESULT from './data/sync_empty_result.json';
 import * as SYNC_COWORKERS from './data/sync_coworkers.json';
 import * as SYNC_COWORKER_POWERS from './data/sync_coworker_powers.json';
 import * as SYNC_VIOLATION_GROUPS from './data/sync_violation_groups.json';
@@ -16,7 +17,11 @@ export class SyncV1Controller {
     @Param('revNum') revNum: number,
     @Res() res: Response,
   ) {
-    return res.status(HttpStatus.OK).json(SYNC_COWORKERS);
+    if (revNum == 0) {
+      return res.status(HttpStatus.OK).json(SYNC_COWORKERS);
+    } else {
+      return res.status(HttpStatus.OK).json(SYNC_EMPTY_RESULT);
+    }
   }
 
   @Get(':revNum/coworker-powers')
@@ -24,7 +29,11 @@ export class SyncV1Controller {
     @Param('revNum') revNum: number,
     @Res() res: Response,
   ) {
-    return res.status(HttpStatus.OK).json(SYNC_COWORKER_POWERS);
+    if (revNum == 0) {
+      return res.status(HttpStatus.OK).json(SYNC_COWORKER_POWERS);
+    } else {
+      return res.status(HttpStatus.OK).json(SYNC_EMPTY_RESULT);
+    }
   }
 
   @Get(':revNum/violation-groups')
@@ -32,7 +41,11 @@ export class SyncV1Controller {
     @Param('revNum') revNum: number,
     @Res() res: Response,
   ) {
-    return res.status(HttpStatus.OK).json(SYNC_VIOLATION_GROUPS);
+    if (revNum == 0) {
+      return res.status(HttpStatus.OK).json(SYNC_VIOLATION_GROUPS);
+    } else {
+      return res.status(HttpStatus.OK).json(SYNC_EMPTY_RESULT);
+    }
   }
 
   @Get(':revNum/violations')
@@ -40,7 +53,11 @@ export class SyncV1Controller {
     @Param('revNum') revNum: number,
     @Res() res: Response,
   ) {
-    return res.status(HttpStatus.OK).json(SYNC_VIOLATIONS);
+    if (revNum == 0) {
+      return res.status(HttpStatus.OK).json(SYNC_VIOLATIONS);
+    } else {
+      return res.status(HttpStatus.OK).json(SYNC_EMPTY_RESULT);
+    }
   }
 
   @Get(':revNum/work-actions')
@@ -48,7 +65,11 @@ export class SyncV1Controller {
     @Param('revNum') revNum: number,
     @Res() res: Response,
   ) {
-    return res.status(HttpStatus.OK).json(SYNC_WORK_ACTIONS);
+    if (revNum == 0) {
+      return res.status(HttpStatus.OK).json(SYNC_WORK_ACTIONS);
+    } else {
+      return res.status(HttpStatus.OK).json(SYNC_EMPTY_RESULT);
+    }
   }
 
   @Get(':revNum/violation-facts')
@@ -56,7 +77,11 @@ export class SyncV1Controller {
     @Param('revNum') revNum: number,
     @Res() res: Response,
   ) {
-    return res.status(HttpStatus.OK).json(SYNC_VIOLATION_FACTS);
+    if (revNum == 0) {
+      return res.status(HttpStatus.OK).json(SYNC_VIOLATION_FACTS);
+    } else {
+      return res.status(HttpStatus.OK).json(SYNC_EMPTY_RESULT);
+    }
   }
 
   @Get(':revNum/work-action-facts')
@@ -64,6 +89,10 @@ export class SyncV1Controller {
     @Param('revNum') revNum: number,
     @Res() res: Response,
   ) {
-    return res.status(HttpStatus.OK).json(SYNC_WORK_ACTION_FACTS);
+    if (revNum == 0) {
+      return res.status(HttpStatus.OK).json(SYNC_WORK_ACTION_FACTS);
+    } else {
+      return res.status(HttpStatus.OK).json(SYNC_EMPTY_RESULT);
+    }
   }
 }
