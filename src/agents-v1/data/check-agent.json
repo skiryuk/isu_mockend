@@ -1,4 +1,7 @@
 {
-  "status": "success",
-  "errorMessage": ""
+  "success": true,
+  "versionCheck": {
+    "success": true,
+    "hasNewVersion": true
+  }
 }
