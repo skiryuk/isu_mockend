@@ -1,7 +1,6 @@
 import { Controller, Get, HttpStatus, Param, Res } from '@nestjs/common';
 import { Response } from 'express';
 
-import * as SYNC_EMPTY_RESULT from './data/sync_empty_result.json';
 import * as SYNC_COWORKERS from './data/sync_coworkers.json';
 import * as SYNC_COWORKER_POWERS from './data/sync_coworker_powers.json';
 import * as SYNC_VIOLATION_GROUPS from './data/sync_violation_groups.json';
@@ -20,7 +19,7 @@ export class SyncV1Controller {
     if (revNum == 0) {
       return res.status(HttpStatus.OK).json(SYNC_COWORKERS);
     } else {
-      return res.status(HttpStatus.OK).json(SYNC_EMPTY_RESULT);
+      return res.status(HttpStatus.NOT_MODIFIED).json();
     }
   }
 
@@ -32,7 +31,7 @@ export class SyncV1Controller {
     if (revNum == 0) {
       return res.status(HttpStatus.OK).json(SYNC_COWORKER_POWERS);
     } else {
-      return res.status(HttpStatus.OK).json(SYNC_EMPTY_RESULT);
+      return res.status(HttpStatus.NOT_MODIFIED).json();
     }
   }
 
@@ -44,7 +43,7 @@ export class SyncV1Controller {
     if (revNum == 0) {
       return res.status(HttpStatus.OK).json(SYNC_VIOLATION_GROUPS);
     } else {
-      return res.status(HttpStatus.OK).json(SYNC_EMPTY_RESULT);
+      return res.status(HttpStatus.NOT_MODIFIED).json();
     }
   }
 
@@ -56,7 +55,7 @@ export class SyncV1Controller {
     if (revNum == 0) {
       return res.status(HttpStatus.OK).json(SYNC_VIOLATIONS);
     } else {
-      return res.status(HttpStatus.OK).json(SYNC_EMPTY_RESULT);
+      return res.status(HttpStatus.NOT_MODIFIED).json();
     }
   }
 
@@ -68,7 +67,7 @@ export class SyncV1Controller {
     if (revNum == 0) {
       return res.status(HttpStatus.OK).json(SYNC_WORK_ACTIONS);
     } else {
-      return res.status(HttpStatus.OK).json(SYNC_EMPTY_RESULT);
+      return res.status(HttpStatus.NOT_MODIFIED).json();
     }
   }
 
@@ -80,7 +79,7 @@ export class SyncV1Controller {
     if (revNum == 0) {
       return res.status(HttpStatus.OK).json(SYNC_VIOLATION_FACTS);
     } else {
-      return res.status(HttpStatus.OK).json(SYNC_EMPTY_RESULT);
+      return res.status(HttpStatus.NOT_MODIFIED).json();
     }
   }
 
@@ -92,7 +91,7 @@ export class SyncV1Controller {
     if (revNum == 0) {
       return res.status(HttpStatus.OK).json(SYNC_WORK_ACTION_FACTS);
     } else {
-      return res.status(HttpStatus.OK).json(SYNC_EMPTY_RESULT);
+      return res.status(HttpStatus.NOT_MODIFIED).json();
     }
   }
 }

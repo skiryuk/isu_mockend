@@ -44,7 +44,7 @@
       "description": "string",
       "coworkerId": "11a85f64-5717-4562-b3fc-2c963f66afa6",
       "isChronic": false,
-      "chronicFactor": 0,
+      "chronicFactor": 1,
       "isCompleted": false,
       "completeDt": "2021-12-16T02:50:30.638Z"
     },
@@ -76,7 +76,7 @@
       "description": "string",
       "coworkerId": "21a85f64-5717-4562-b3fc-2c963f66afa6",
       "isChronic": false,
-      "chronicFactor": 0,
+      "chronicFactor": 1,
       "isCompleted": false,
       "completeDt": "2021-12-16T02:50:30.638Z"
     },
@@ -92,7 +92,7 @@
       "description": "string",
       "coworkerId": "21a85f64-5717-4562-b3fc-2c963f66afa6",
       "isChronic": false,
-      "chronicFactor": 0,
+      "chronicFactor": 1,
       "isCompleted": false,
       "completeDt": "2021-12-16T02:50:30.638Z"
     },
@@ -108,7 +108,7 @@
       "description": "string",
       "coworkerId": "21a85f64-5717-4562-b3fc-2c963f66afa6",
       "isChronic": false,
-      "chronicFactor": 0,
+      "chronicFactor": 1,
       "isCompleted": false,
       "completeDt": "2021-12-16T02:50:30.638Z"
     }
