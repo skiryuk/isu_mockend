@@ -1,0 +1,11 @@
+{
+  "type": "https://tools.ietf.org/html/rfc7231#section-6.6.1",
+  "title": "Ресурс не найден.",
+  "status": 404,
+  "detail": "Ресурс не найден",
+  "instance": "Beeline.Isu.Controllers.ContractsController.Create (Beeline.Isu)",
+  "traceId": "ba0648562077b5b4ac9861dba5f8ea85",
+  "additionalProp1": "string",
+  "additionalProp2": "string",
+  "additionalProp3": "string"
+}

@@ -1,16 +1,1 @@
-{
-  "coworker": {
-    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-    "tabNumber": "42342",
-    "lastName": "Васильев",
-    "firstName": "Василий",
-    "middleName": "Васильевич",
-    "roleName": "string",
-    "stuffName": "string"
-  },
-  "office": {
-    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-    "code": "1123123",
-    "addressLine": "string"
-  }
-}
+{"role":"office-director","coworker":{"id":"7e341a02-370e-457f-bd13-608036aba0ea","tabNumber":"Z156575","lastName":"Александров","firstName":"Вячеслав","middleName":"Федорович","funcName":"Директор","stuffName":null},"office":{"id":"1a198e2e-18ff-4143-aab6-9c1022213af7","code":"Z056000","addressLine":"г. Москва, ул. Грекова-Тестова, д. 8"}}
